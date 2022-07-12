@@ -9,7 +9,6 @@ const defaultFormFields =  {
     email: '', 
     password: '',
     confirmPassword: ''
-
 }
 
 const SignUpForm = () => {
@@ -85,8 +84,9 @@ const SignUpForm = () => {
                     required 
                     onChange={handleChange} 
                     name="confirmPassword" 
-                    value={confirmPassword}                />
-                <Button buttonType= 'inverted' type="submit">Sign up</Button>
+                    value={confirmPassword}
+                />
+                <Button  type="submit">Sign up</Button>
             </form>
         </div>
     );
